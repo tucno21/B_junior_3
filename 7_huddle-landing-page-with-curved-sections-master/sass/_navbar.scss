@@ -1,0 +1,54 @@
+body{
+    // background: var(--Pink);
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar{
+    // width: 100vw;
+    margin: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo{
+        height: 2.3rem;
+    }
+
+    &__boton{
+        height: 2.4rem;
+        width: 8.2rem;
+        border: 2px solid var(--Pink);
+        border-radius: 1.2rem;
+        display: grid;
+        place-content: center;
+        text-decoration: none;
+        color: var(--Pink);
+
+        &:hover{
+            border: 2px solid var(--Light-Pink);
+            color: var(--Light-Pink);
+        }
+        
+    }
+}
+
+
+
+@media screen and (min-width: 768px){
+    .navbar{
+        margin: 7.5rem;
+        
+        &__logo{
+            height: 3.8rem;
+        }
+    
+        &__boton{
+            height: 3.8rem;
+            width: 13rem;
+            border-radius: 1.9rem;
+            font-size: 2rem;
+        }
+    }
+}

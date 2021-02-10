@@ -1,0 +1,150 @@
+.footer__fondo{
+    background:url(/img/bg-footer-top-mobile.svg) no-repeat top;
+    padding-bottom: 4.8rem;
+    width: 100vw;
+    background-size: cover;
+}
+@media screen and (min-width: 768px){
+    .footer__fondo{
+        background:url(/img/bg-footer-top-desktop.svg) no-repeat top;
+        padding-bottom: 15rem;
+    }
+}
+
+
+.footer__container{
+    background-color: var(--Very-Dark-Cyan);
+}
+
+@media screen and (min-width: 768px){
+    .footer__container{
+        display: flex;
+        flex-direction: row-reverse;
+        // padding-top: 6rem;
+        padding: 6rem;
+    }
+}
+
+.suscribe{
+    // background-color: var(--Very-Dark-Cyan);
+    padding: 4rem 2rem;
+    color: #fff;
+    // position: relative;
+    
+    &__title{
+        font-family: var(--font-Poppins);
+        font-size: 1.6rem;
+    }
+
+    &__paragraph{
+        font-family: var(--font-open-sans);
+        font-size: 1.6rem;
+        font-weight: 100;
+        margin: 1.5rem 0;
+    }
+
+    &__email{
+        width: 100%;
+        height: 4rem;
+        margin: 1rem 0;
+        outline: none;
+        border-radius: 10px;
+    }
+
+    &__submit{
+        display: inline-block;
+        width: 12rem;
+        height: 4rem;
+        // position: relative;
+        // right: 0;
+        background-color: var(--Pink);
+        color: #fff;
+        font-family: var(--font-Poppins);
+        outline: none;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .suscribe{
+        
+        &__title{
+            font-size: 1.8rem;
+        }
+    
+        &__paragraph{
+            width: 65%;
+            font-size: 1.7rem;
+        }
+
+        .form{
+            display: flex;
+        }
+    
+        &__email{
+            width: 60%;
+            height: 4rem;
+            margin: 0;
+            margin-right: 2rem;
+            border-radius: 10px;
+        }
+        
+    }
+}
+
+.informa{
+    color: #fff;
+    text-align: left;
+    padding: 2rem 2rem;
+    // font-family: var(--font-Poppins);
+
+
+    &__logo{
+        width: 20rem;
+        fill: currentColor !important;
+    }
+
+    &__paragraph{
+        margin: 1.5rem 0;
+        font-size: 1.8rem;
+        font-weight: 100;
+        line-height: 1.5;
+    }
+
+    &__info{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    &__text{
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    &__social{
+        display: flex;
+        // justify-content: center;
+    }
+
+    &__social-icon{
+        display: block;
+        // display: flex;
+        // text-align: center;
+        margin: 2rem 1rem;
+        color: #fff;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .informa{
+
+        &__social{
+            margin-top: 6rem;
+            display: flex;
+            // justify-content: center;
+        }
+    }
+}

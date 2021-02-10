@@ -1,0 +1,25 @@
+
+
+/*inicio*/
+
+:root{
+    // ### Primary
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+// ### Neutral
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+    --font-Poppins: 'Poppins', sans-serif;
+    --font-open-sans: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
